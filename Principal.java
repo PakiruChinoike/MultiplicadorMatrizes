@@ -41,7 +41,7 @@ public class Principal {
             }
         }
 
-        System.out.println("Determine os valores de cada espaço da primeira matriz.");
+        System.out.println("Determine os valores de cada espaço da segunda matriz.");
 
         //DEFINE OS VALORES PARA CADA ESPAÇO DA MATRIZ
         for (int i = 0; i<k; i++) {
@@ -73,7 +73,7 @@ public class Principal {
 
         for (int i = 0; i<m; i++) {
             for (int j = 0; j<l; j++) {
-                resultado = resultado + matriz[i][j];
+                resultado = resultado + matrizC[i][j];
             }
             resultado = resultado + "%n";
         }
