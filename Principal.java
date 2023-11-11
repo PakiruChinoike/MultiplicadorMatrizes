@@ -28,7 +28,7 @@ public class Principal {
         //DECLARA A SEGUNDA MATRIZ
         int[][] matrizB = new int[k][l];
 
-        if (n=k) {
+        if (n!=k) {
             System.out.println("As matrizes não podem ser computadas.");
         }
         else {
@@ -41,7 +41,7 @@ public class Principal {
             }
         }
 
-        System.out.println("Determine os valores de cada espaço da segunda matriz.");
+        System.out.println("Determine os valores de cada espaço da primeira matriz.");
 
         //DEFINE OS VALORES PARA CADA ESPAÇO DA MATRIZ
         for (int i = 0; i<k; i++) {
@@ -73,12 +73,12 @@ public class Principal {
 
         for (int i = 0; i<m; i++) {
             for (int j = 0; j<l; j++) {
-                resultado = resultado + matrizC[i][j];
+                resultado = resultado + matrizC[i][j] + " ";
             }
             resultado = resultado + "%n";
         }
 
-        System.out.println(resultado);
+        System.out.printf(resultado);
 
         }
 
